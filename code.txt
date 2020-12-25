@@ -1,0 +1,16 @@
+find -name "1.txt"
+find -name "*.jpg"
+find -name "image?.jpg"
+wget https://drive.google.com/file/d/1ERp802RdA9d7Uk-hI51vDqciRYTscDZP/view?usp=sharing
+tar -xvzf /home/mozgovoynikolay/shakespeare.tar.gz
+grep>SHAKE.txt "love" -r /home/mozgovoynikolay/Shakespeare
+grep -Fr "love" /home/mozgovoynikolay/Shakespeare/  > /home/mozgovoynikolay/labarat10.txt
+grep -rh love /home/mozgovoynikolay/Shakespeare/  > /home/mozgovoynikolay/labarat10.txt
+
+#2
+
+grep "world" /home/mozgovoynikolay/Shakespeare/THECOMEDY.txt
+grep -c "world" /home/mozgovoynikolay/Shakespeare/THECOMEDY.txt
+grep -r -c "love" /home/mozgovoynikolay/Shakespeare
+
+
